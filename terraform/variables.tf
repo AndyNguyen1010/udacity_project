@@ -45,15 +45,15 @@ variable "eks_worker_node" {
 
 variable "git_repository_url" {
   type    = string
-  default = ""
+  default = "https://github.com/AndyNguyen1010/udacity_project"
 }
 
 variable "github_personal_access_token" {
   type    = string
-  default = ""
+  default = "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"
 }
 
 variable "codebuild-ecr-role" {
   type    = string
-  default = ""
+  default = "uda-proj3-codebuild-ecr-role"
 }

@@ -4,6 +4,6 @@ metadata:
   name: env-config
 data:
   DB_USERNAME: "postgres"
-  DB_NAME: "postgres"
-  DB_HOST: "udacity-postgresql"
+  DB_NAME: "udacity_pro3"
+  DB_HOST: "localhost"
   DB_PORT: "5432"
