@@ -1,6 +1,6 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "us-east-2"
 }
 
 variable "ecr_name" {
@@ -50,7 +50,7 @@ variable "git_repository_url" {
 
 variable "github_personal_access_token" {
   type    = string
-  default = "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"
+  default = "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"
 }
 
 variable "codebuild-ecr-role" {
